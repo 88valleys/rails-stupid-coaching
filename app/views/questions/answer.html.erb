@@ -1,0 +1,20 @@
+<div class="container w-100 m-3 p-5">
+  <h1>Stupid Coaching</h1>
+
+  <div class="left-line-callout">
+    <div class="card-body">
+      <p class="card-text"> <%= @question %></p>
+      <p class="font-italic">- You</p>
+    </div>
+  </div>
+
+  <div class="left-line-callout background-answer">
+    <div class="card-body">
+      <p class="font-weight-bold"> <%= @answer %></p>
+        <p class="font-italic">- Your coach</p>
+
+    </div>
+  </div>
+
+  <%= link_to 'Go back ⬅️', ask_path, class: "btn btn-secondary btn-lg btn-block w-100 mt-3" %>
+</div>
